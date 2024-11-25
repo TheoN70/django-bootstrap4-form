@@ -25,7 +25,8 @@ setup(
     license='MIT',
     test_suite='runtests.runtests',
     install_requires = [
-        "django>=2.2",
+        "Django>=3.2",
+    	"packaging>=21.3",  # Ensure this is added
     ],
     packages=find_packages(),
     include_package_data=True,
